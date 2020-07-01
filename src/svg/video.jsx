@@ -3,8 +3,8 @@ import React from "react";
 const Video = (props) => {
   return (
     <div className="musician-left">
+      <div className="bg-video invert"></div>
       <div className="video">
-        <div className="bg-video invert"></div>
         <div className="iframe">
           <iframe
             width="300px"
