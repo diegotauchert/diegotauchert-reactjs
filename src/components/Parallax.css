@@ -4,6 +4,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -402,4 +404,114 @@ a.btn-sound:hover::after {
 
 .change-theme label:active:after {
   width: 45px;
+}
+.btn-sound {
+  position: relative;
+  z-index: 99;
+  animation: show 2s ease 2s 1 both;
+}
+.sprite {
+  display: block;
+  background-image: url(../assets/sprites.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nav-musician {
+  width: 106px;
+  height: 63px;
+  background-position: -68px -127px;
+  position: absolute;
+  left: 10%;
+}
+.nav-developer {
+  width: 150px;
+  height: 60px;
+  background-position: -13px -197px;
+  position: absolute;
+  right: 30%;
+}
+.nav-musician {
+  animation: show 2s ease 2s 1 both, nav-move 5s ease 2s infinite forwards;
+}
+.nav-developer {
+  animation: show 2s ease 2s 1 both, nav-move 4s ease 3s infinite forwards;
+}
+@keyframes nav-move {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  60% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  70% {
+    transform: translate(-15px, 0) rotate(2deg);
+  }
+  80% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  90% {
+    transform: translate(-10px, 0) rotate(3deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+.sprite:hover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+#layer-6 {
+  margin-top: 3%;
+}
+.nav {
+  width: 100vw;
+}
+.social-media {
+  text-align: left;
+  position: absolute;
+  right: 35%;
+  margin-top: 6%;
+  animation: show 2s ease 2s 1 both;
+}
+.social-media a {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 3px;
+}
+.social-media a.btn-email {
+  background-position: -11px -29px;
+}
+.social-media a.btn-linkedin {
+  background-position: -41px -29px;
+}
+.social-media a.btn-twitter {
+  background-position: -69px -27px;
+}
+.social-media a.btn-facebook {
+  background-position: -97px -27px;
+}
+.social-media a.btn-youtube {
+  background-position: -127px -27px;
+}
+.block {
+  display: block;
+}
+.mb-2 {
+  margin-bottom: 0.3rem;
+}
+.social-media span label {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.social-media span i {
+  width: 16px;
+  height: 8px;
+  display: inline-block;
+  background-position: -14px -13px;
+  margin-right: 5px;
 }

@@ -7,6 +7,7 @@ import Musician from "../svg/musician.jsx";
 import Developer from "../svg/developer.jsx";
 import Diego from "../svg/diego.jsx";
 import Logo from "../svg/logo.jsx";
+import Sprite from "../svg/sprite.jsx";
 
 const Wrapper = styled.div`
   background: ${(props) => props.theme.theme.background};
@@ -20,7 +21,8 @@ const Wrapper = styled.div`
   }
   .btn-sound img,
   .black-logo,
-  .cloud {
+  .cloud,
+  .invert {
     filter: ${(props) => props.theme.theme.filter};
     -webkit-filter: ${(props) => props.theme.theme.filter};
   }
@@ -80,8 +82,11 @@ export default class ParallaxLayers extends Component {
             <li id="layer-4" className="layer" data-depth="1.20">
               <Baloon fill={this.props.fill} />
             </li>
-            <li id="layer-5" className="layer center" data-depth="1.30">
+            <li id="layer-5" className="layer" data-depth="1.30">
               <Logo fill={this.props.fill} />
+            </li>
+            <li id="layer-6" className="layer center" data-depth="1.05">
+              <Sprite fill={this.props.fill} />
             </li>
           </ul>
         </div>
