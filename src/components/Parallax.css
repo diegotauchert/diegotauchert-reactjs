@@ -515,3 +515,46 @@ a.btn-sound:hover::after {
   background-position: -14px -13px;
   margin-right: 5px;
 }
+.video {
+  width: 400px;
+  position: relative;
+  animation: balance 10s ease infinite both;
+}
+.bg-video {
+  position: absolute;
+  top: 11%;
+  right: 12%;
+  width: 161px;
+  height: 208px;
+  background: url(../assets/musician-elements.png) no-repeat 80% 15%;
+}
+@keyframes balance {
+  0% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.iframe {
+  position: absolute;
+  bottom: 22px;
+  width: 100%;
+  left: 80px;
+  right: 0;
+  transform: rotate(1deg);
+}
+.musician-bottom {
+  background: url(../assets/musician-bottom.png) no-repeat top left;
+  width: 353px;
+  height: 142px;
+  position: absolute;
+  bottom: -17%;
+  left: 11%;
+}

@@ -1,13 +1,17 @@
 import React, { Component } from "react";
 import Parallax from "parallax-js";
 import "./Parallax.css";
+import "./SlideAnimation.css";
 import styled from "styled-components";
 import Baloon from "../svg/baloon.jsx";
 import Musician from "../svg/musician.jsx";
+import Video from "../svg/video.jsx";
 import Developer from "../svg/developer.jsx";
 import Diego from "../svg/diego.jsx";
 import Logo from "../svg/logo.jsx";
 import Sprite from "../svg/sprite.jsx";
+
+import $ from "jquery";
 
 const Wrapper = styled.div`
   background: ${(props) => props.theme.theme.background};
@@ -59,6 +63,15 @@ export default class ParallaxLayers extends Component {
     this.parallax.origin(1, 1);
 
     this.parallax.doReadyCallback();
+
+    $(".nav-musician").click(function () {
+      $("#main").removeClass("developer");
+      $("#main").toggleClass("musician");
+    });
+    $(".nav-developer").click(function () {
+      $("#main").removeClass("musician");
+      $("#main").toggleClass("developer");
+    });
   }
 
   componentWillUnmount() {
@@ -72,6 +85,7 @@ export default class ParallaxLayers extends Component {
           <ul ref={(el) => (this.scene = el)} className={this.state.class}>
             <li id="layer-1" className="layer" data-depth="0.50">
               <Musician fill={this.props.fill} />
+              <Video fill={this.props.fill} />
             </li>
             <li id="layer-2" className="layer" data-depth="1.00">
               <Developer fill={this.props.fill} />
