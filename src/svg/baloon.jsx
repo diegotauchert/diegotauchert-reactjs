@@ -5,24 +5,48 @@ const Baloon = (props) => {
   return (
     <div className="dialog">
       <div className="dialog-body">
-        <a
-          href="https://www.linkedin.com/in/diegotauchert/"
-          className="lnk-profile"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={linkedin} width="25" alt="Diego Tauchert Linkedin" />{" "}
-          @DiegoTauchert
-        </a>
-        <p>
-          Hi there
-          <br />
-          My name is Diego Tauchert
-          <br />
-          I am a Full Stack Developer with +10 years of experience doing web and
-          mobile applications. <br />I specialize in CSS, PHP Laravel, and also,
-          JavaScript frameworks such as React and Node.
-        </p>
+        <div className="carousel">
+          <a
+            href="https://www.linkedin.com/in/diegotauchert/"
+            className="lnk-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} width="25" alt="Diego Tauchert Linkedin" />
+            @DiegoTauchert
+          </a>
+          <p>
+            Hi there
+            <br />
+            My name is Diego Tauchert
+            <br />
+            I am a Full Stack Developer with +10 years of experience doing web
+            and mobile applications. <br />I specialize in CSS, PHP Laravel, and
+            also, JavaScript frameworks such as React and Node.
+          </p>
+        </div>
+        <div className="carousel">
+          <div className="social-media">
+            <a
+              href="https://www.youtube.com/channel/UCF9x5A319JImgGJ6Cb7zhrQ"
+              className="sprite invert btn-youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Youtube
+            </a>
+          </div>
+          @Filelife
+          <p>
+            <br />
+            My artistic name is Filelife
+            <br />
+            My musical genre is indie rock and folk, very influenced by British
+            music and 80s. Room to Farewell was my first album, released in
+            2016, followed by Plunge (second album, 2016) and Atlantic Bridges
+            (third album, 2017)
+          </p>
+        </div>
       </div>
       <svg
         version="1.0"

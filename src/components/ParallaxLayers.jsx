@@ -83,6 +83,101 @@ export default class ParallaxLayers extends Component {
       $("#main").removeClass("musician");
       $("#main").removeClass("developer");
     });
+
+    $(".dialog-body .carousel").first().addClass("active").fadeIn("slow");
+
+    setInterval(function () {
+      if ($(".dialog-body .carousel.active").next().length === 0) {
+        $(".dialog-body .carousel.active").removeClass("active").hide();
+        $(".dialog-body .carousel").first().fadeIn("slow").addClass("active");
+      } else {
+        $(".dialog-body .carousel.active")
+          .removeClass("active")
+          .hide()
+          .next()
+          .fadeIn("slow")
+          .addClass("active");
+      }
+    }, 10000);
+
+    $(".carousel-stack img").first().addClass("active").fadeIn("slow");
+
+    setInterval(function () {
+      if ($(".carousel-stack img.active").next().length === 0) {
+        $(".carousel-stack img.active").removeClass("active").hide();
+        $(".carousel-stack img").first().fadeIn("slow").addClass("active");
+      } else {
+        $(".carousel-stack img.active")
+          .removeClass("active")
+          .hide()
+          .next()
+          .fadeIn("slow")
+          .addClass("active");
+      }
+    }, 2000);
+
+    $(".jobs .card img").first().addClass("active").fadeIn("slow");
+    $(".jobs .card-body").first().addClass("active").fadeIn("slow");
+
+    function JobsCarousel(direction = "next") {
+      let img;
+      let btn;
+
+      if (direction === "next") {
+        img = $(".jobs .card img.active").next();
+        btn = ".nav-job.prev";
+      } else if (direction === "prev") {
+        img = $(".jobs .card img.active").prev();
+        btn = ".nav-job.next";
+      }
+
+      if (img.length === 0) {
+        $(".jobs .card img.active").removeClass("active").hide();
+        $(".jobs .card img").first().fadeIn("slow").addClass("active");
+
+        $(".jobs .card-body.active").removeClass("active").hide();
+        $(".jobs .card-body").first().fadeIn("slow").addClass("active");
+
+        $(btn).animate({ height: "40px" }, 200, "linear", function () {
+          $(this).css("height", "60px");
+        });
+      } else {
+        $(".jobs .card img.active")
+          .removeClass("active")
+          .hide()
+          .next()
+          .fadeIn("slow")
+          .addClass("active");
+
+        $(".jobs .card-body.active")
+          .removeClass("active")
+          .hide()
+          .next()
+          .fadeIn("slow")
+          .addClass("active");
+
+        $(".nav-job." + direction).animate(
+          { height: "40px" },
+          200,
+          "linear",
+          function () {
+            $(this).css("height", "60px");
+          }
+        );
+      }
+    }
+
+    setInterval(function () {
+      JobsCarousel("next");
+    }, 4000);
+
+    $(".nav-job.next").click(function () {
+      JobsCarousel("next");
+    });
+
+    $(".nav-job.prev").click(function () {
+      JobsCarousel("prev");
+    });
   }
 
   componentWillUnmount() {

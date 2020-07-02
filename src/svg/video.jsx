@@ -12,10 +12,9 @@ const Video = (props) => {
           <iframe
             width="300px"
             height="220px"
-            src="https://www.youtube.com/embed/JWt5U50Pz5M"
+            src="https://www.youtube.com/embed/JWt5U50Pz5M?mute=1&autoplay=1&loop=1"
             frameBorder="0"
             title="Filelife - Room to Farewell"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
         </div>

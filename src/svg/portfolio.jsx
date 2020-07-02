@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import job1 from "../assets/jabas/jaba-1.jpg";
+import job2 from "../assets/jabas/jaba-2.jpg";
+import job3 from "../assets/jabas/jaba-3.jpg";
+import gitLogo from "../assets/stack/github.png";
 
 const Portfolio = (props) => {
   return (
@@ -22,11 +25,25 @@ const Portfolio = (props) => {
         </h3>
       </div>
 
+      <div className="github invert">
+        <h2>
+          <a
+            href="https://github.com/diegotauchert"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="See my linkedin"
+          >
+            <img src={gitLogo} alt="GitHub" className="black-img" width="30" />
+            <strong>
+              <span>My Repos</span>
+              Github
+            </strong>
+          </a>
+        </h2>
+      </div>
+
       <div className="jobs">
         <h2 title="My Recents Cases">My Recents Cases</h2>
-        <div className="card">
-          <img src={job1} alt="Marãos Burger" />
-        </div>
 
         <button className="nav-job next">
           <svg
@@ -71,6 +88,35 @@ const Portfolio = (props) => {
           </svg>
         </button>
 
+        <div className="card">
+          <img src={job3} alt="Sondos Baslouh" />
+          <img src={job2} alt="Filelife Official" />
+          <img src={job1} alt="Marão Burguer" />
+        </div>
+        <div className="card-body">
+          <h3 className="text-white">Sondos Baslouh</h3>
+          <h4>Front-end / Wordpress</h4>
+          <a
+            href="http://sondosbaslouh.com"
+            title="Sondos Baslouh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            sondosbaslouh.com
+          </a>
+        </div>
+        <div className="card-body">
+          <h3 className="text-white">Filelife Official</h3>
+          <h4>Front-end / Back-end Node</h4>
+          <a
+            href="https://filelife.co"
+            title="Filelife Official"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            filelife.co
+          </a>
+        </div>
         <div className="card-body">
           <h3 className="text-white">Marão Burgers Boston</h3>
           <h4>Front-end / Wordpress</h4>
@@ -80,9 +126,10 @@ const Portfolio = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            www.maraosburger.com
+            maraosburger.com
           </a>
         </div>
+
         <svg
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"

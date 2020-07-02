@@ -303,7 +303,8 @@ li#layer-2 {
   -webkit-filter: grayscale(100%) brightness(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%) brightness(0%);
 }
-.black-logo:hover {
+.black-logo:hover,
+.black-img:hover {
   transition: 0.6s !important;
   -webkit-filter: grayscale(0%) brightness(100%) !important; /* Safari 6.0 - 9.0 */
   filter: grayscale(0%) brightness(100%) !important;
@@ -346,6 +347,9 @@ a.btn-sound:hover::after {
   bottom: 125px;
   right: 95px;
   z-index: 9;
+}
+.dialog .dialog-body .carousel {
+  display: none;
 }
 .dialog .dialog-body p {
   font-size: 11px;
@@ -602,7 +606,7 @@ a.btn-sound:hover::after {
   height: 110px;
   width: 220px;
   position: absolute;
-  bottom: 5%;
+  bottom: 15%;
   right: 15%;
   animation: rocket 5s ease-in-out infinite;
 }
@@ -740,11 +744,15 @@ a.btn-sound:hover::after {
   top: 94px;
   left: 13px;
 }
+.jobs .card img {
+  display: none;
+}
 .jobs .card-body {
   position: absolute;
   z-index: 4;
   bottom: 35px;
   right: 35px;
+  display: none;
 }
 .jobs .card-body h4 {
   color: #fdae28;
@@ -787,10 +795,64 @@ a.btn-sound:hover::after {
   width: 10vw;
   height: 15vh;
   position: absolute;
-  bottom: 22%;
-  right: 17%;
+  bottom: 20%;
+  right: 16%;
   transform: rotate(11deg) scale(0.6);
 }
+
 .stack img {
-  width: 100%;
+  max-height: 120px;
+  max-width: 150px;
+  display: none;
+}
+.black-img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  margin-right: 5px;
+}
+.github {
+  position: absolute;
+  z-index: 9;
+  bottom: 3%;
+  right: 16%;
+}
+.github h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.github h2 span {
+  font-size: 11px;
+  display: block;
+}
+.github a {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tv {
+  position: absolute;
+  top: 25vh;
+  left: 11.7vw;
+  animation: noise-tv 2s ease-in-out 3s infinite both;
+}
+@keyframes noise-tv {
+  0% {
+    filter: invert(100%) saturate(100%);
+  }
+  20% {
+    filter: saturate(100%);
+  }
+  50% {
+    filter: invert(100%);
+  }
+  70% {
+    filter: brightness(100%);
+  }
+  90% {
+    filter: invert(100%) saturate(100%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
 }
