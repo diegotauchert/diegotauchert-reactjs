@@ -3,6 +3,9 @@ import React from "react";
 const Video = (props) => {
   return (
     <div className="musician-left">
+      <div className="back-home">
+        <button className="sprite invert">Home</button>
+      </div>
       <div className="bg-video invert"></div>
       <div className="video">
         <div className="iframe">
@@ -10,9 +13,10 @@ const Video = (props) => {
             width="300px"
             height="220px"
             src="https://www.youtube.com/embed/JWt5U50Pz5M"
-            frameborder="0"
+            frameBorder="0"
+            title="Filelife - Room to Farewell"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <svg
