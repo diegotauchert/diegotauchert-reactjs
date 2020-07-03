@@ -22,6 +22,8 @@ body {
 button {
   cursor: pointer;
   background: transparent;
+  border: none;
+  outline: none;
 }
 .wrapper {
   overflow: hidden;
@@ -492,25 +494,31 @@ a.btn-sound:hover::after {
   margin-top: 6%;
   animation: show 2s ease 2s 1 both;
 }
-.social-media a {
+.social-media-dialog {
+  position: relative;
+  top: 35px;
+  left: 15px;
+}
+.social-media a,
+.social-media-dialog a {
   width: 24px;
   height: 24px;
   display: inline-block;
   margin-right: 3px;
 }
-.social-media a.btn-email {
+a.btn-email {
   background-position: -11px -29px;
 }
-.social-media a.btn-linkedin {
+a.btn-linkedin {
   background-position: -41px -29px;
 }
-.social-media a.btn-twitter {
+a.btn-twitter {
   background-position: -69px -27px;
 }
-.social-media a.btn-facebook {
+a.btn-facebook {
   background-position: -97px -27px;
 }
-.social-media a.btn-youtube {
+a.btn-youtube {
   background-position: -127px -27px;
 }
 .block {
@@ -608,7 +616,11 @@ a.btn-sound:hover::after {
   position: absolute;
   bottom: 15%;
   right: 15%;
-  animation: rocket 5s ease-in-out infinite;
+  opacity: 1;
+  animation: rocket 5s ease-in-out infinite 2s alternate backwards;
+}
+body.safari .rocket {
+  animation: none !important;
 }
 
 @keyframes rocket {
@@ -826,10 +838,27 @@ a.btn-sound:hover::after {
 }
 .github a {
   color: #000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
+.github strong {
+  float: right;
+}
+.github .black-img {
+  height: auto;
+  float: left;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.f-80 {
+  font-size: 80%;
+}
+.f-70 {
+  font-size: 70%;
+}
+.bold {
+  font-weight: bold;
+}
+
 .tv {
   position: absolute;
   top: 25vh;

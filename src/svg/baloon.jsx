@@ -1,20 +1,42 @@
 import React from "react";
 import linkedin from "../assets/linkedin.png";
+import spotify from "../assets/spotify.png";
+import github from "../assets/stack/github.png";
 
 const Baloon = (props) => {
   return (
     <div className="dialog">
       <div className="dialog-body">
         <div className="carousel">
-          <a
-            href="https://www.linkedin.com/in/diegotauchert/"
-            className="lnk-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedin} width="25" alt="Diego Tauchert Linkedin" />
-            @DiegoTauchert
-          </a>
+          <div className="social-media-dialog mb-2">
+            <a
+              href="https://www.linkedin.com/in/diegotauchert/"
+              className="lnk-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} width="22" alt="Diego Tauchert Linkedin" />
+            </a>
+            <a
+              href="https://github.com/diegotauchert"
+              className="lnk-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} width="22" alt="Diego Tauchert Github" />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7tOpUzCPQU8"
+              className="sprite btn-youtube"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Youtube
+            </a>
+            <span className="uppercase f-70 bold">@DiegoTauchert</span>
+          </div>
+          <br clear="all" />
+          <br />
           <p>
             Hi there
             <br />
@@ -26,17 +48,34 @@ const Baloon = (props) => {
           </p>
         </div>
         <div className="carousel">
-          <div className="social-media">
+          <div className="social-media-dialog mb-2">
             <a
-              href="https://www.youtube.com/channel/UCF9x5A319JImgGJ6Cb7zhrQ"
-              className="sprite invert btn-youtube"
+              href="https://open.spotify.com/artist/4SRTVstKXJY7QYS89BCYfm"
+              className="lnk-profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={spotify} width="22" alt="Filelife Spotify" />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=JWt5U50Pz5M"
+              className="sprite btn-youtube"
               target="_blank"
               rel="noopener noreferrer"
             >
               Youtube
             </a>
+            <a
+              href="https://www.facebook.com/filelifeofficial"
+              className="sprite btn-facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+            <span className="uppercase f-70 bold">@Filelife</span>
           </div>
-          @Filelife
+          <br />
           <p>
             <br />
             My artistic name is Filelife

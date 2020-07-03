@@ -2,7 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ParallaxComponent from "./components/Parallax";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import { detect } from "detect-browser";
 import * as serviceWorker from "./serviceWorker";
+
+const browser = detect();
+
+document.body.classList.add(browser.name);
 
 ReactDOM.render(
   <React.StrictMode>
