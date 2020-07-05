@@ -96,16 +96,24 @@ li#layer-2 {
 }
 #layer-3 {
   text-align: center;
-  left: 40% !important;
+  left: 25% !important;
   transform-origin: bottom;
   transform: scale(0.85) translate(-40%) !important;
+  height: 100vh;
+  text-align: center;
+}
+.diego-wrapper {
+  position: relative;
+  height: 100vh;
 }
 #main.home #layer-1,
 #main.home #layer-2 {
   opacity: 1 !important;
 }
 #layer-3 img {
-  margin-top: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: block;
   animation: scale-show 1.5s ease 1;
   transform-origin: bottom;
@@ -170,13 +178,15 @@ li#layer-2 {
     transform: scale(1) translate(0, 0) rotate(0deg);
   }
 }
+
 .profile-button {
   position: absolute;
   z-index: 999;
-  bottom: 39.5%;
-  left: 110px;
+  bottom: 105px;
+  left: 80px;
   background-color: transparent;
   width: 78px;
+  max-width: 20vw;
   height: 71px;
   text-align: center;
   opacity: 1;
@@ -231,7 +241,7 @@ li#layer-2 {
   }
 }
 #layer-4 {
-  right: 22% !important;
+  right: 22%;
   left: auto !important;
   top: auto !important;
   bottom: 10%;
@@ -244,6 +254,7 @@ li#layer-2 {
 #layer-5 {
   top: 2% !important;
   left: 35% !important;
+  text-align: center;
 }
 .logo {
   width: 255px;
@@ -253,6 +264,7 @@ li#layer-2 {
   animation: scale-show 2s ease 1s 1 forwards,
     shake 8s ease 2s infinite forwards;
 }
+
 .black-logo {
   animation: moving-size-rotate 6s ease 3s infinite forwards;
   transition: 0.4s;
@@ -449,7 +461,7 @@ a.btn-sound:hover::after {
   height: 60px;
   background-position: -13px -197px;
   position: absolute;
-  right: 30%;
+  right: 10%;
 }
 .nav-musician {
   animation: show 2s ease 2s 1 both, nav-move 5s ease 2s infinite forwards;
@@ -490,8 +502,8 @@ a.btn-sound:hover::after {
 .social-media {
   text-align: left;
   position: absolute;
-  right: 35%;
-  margin-top: 6%;
+  right: 25vw;
+  margin-top: 14%;
   animation: show 2s ease 2s 1 both;
 }
 .social-media-dialog {
@@ -568,7 +580,7 @@ a.btn-youtube {
 }
 .iframe {
   position: absolute;
-  bottom: 22px;
+  bottom: 3vh;
   width: 100%;
   left: 80px;
   right: 0;
@@ -587,6 +599,7 @@ a.btn-youtube {
   width: 106px;
   height: 63px;
   position: absolute;
+  z-index: 99;
 }
 .musician-left .back-home {
   left: 115%;

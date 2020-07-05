@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Parallax from "parallax-js";
 import "./Parallax.css";
 import "./SlideAnimation.css";
+import "./MediaQueries.css";
 import styled from "styled-components";
 import Baloon from "../svg/baloon.jsx";
 import Musician from "../svg/musician.jsx";

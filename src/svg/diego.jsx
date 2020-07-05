@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import React from "react";
 import img from "../assets/diego.png";
 
 const Diego = (props) => {
   return (
-    <Fragment>
+    <div className="diego-wrapper">
       <div className="profile-button">
         <a
           href="https://www.linkedin.com/in/diegotauchert/"
@@ -34,7 +34,7 @@ const Diego = (props) => {
       </div>
 
       <img src={img} alt="Diego Tauchert" className="diegoTauchert" />
-    </Fragment>
+    </div>
   );
 };
 export default Diego;

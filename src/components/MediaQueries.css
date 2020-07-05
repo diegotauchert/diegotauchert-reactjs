@@ -1,0 +1,206 @@
+@media (max-width: 1300px) {
+  .tv {
+    display: none;
+  }
+  .logo {
+    transform: scale(0.7) !important;
+    top: -35px;
+  }
+  #layer-4 {
+    right: 5%;
+    transform: scale(0.65) !important;
+  }
+  .profile-button {
+    transform: scale(0.65);
+    left: 48px;
+    bottom: 200px;
+  }
+  #layer-1 svg,
+  #layer-2 svg {
+    height: 100vh;
+    max-width: 80vw;
+  }
+  .stack {
+    display: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  .profile-button {
+    display: none;
+  }
+  #main.developer #layer-2 svg {
+    max-width: 100vw;
+  }
+  #main.developer #layer-2 {
+    animation: slide-right-mobile-l2 2s ease-in 1 both;
+  }
+  @keyframes slide-right-mobile-l2 {
+    0% {
+      margin-left: 50%;
+    }
+    100% {
+      margin-left: -47%;
+    }
+  }
+  .diego-wrapper {
+    margin-top: 26vh;
+  }
+  .social-media {
+    margin-top: 4%;
+  }
+  .nav-developer {
+    right: 23%;
+    top: -20px;
+  }
+  .iframe {
+    bottom: 4vh;
+    width: 177px;
+    left: 143px;
+    height: 133px;
+  }
+  .iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-video {
+    right: 45%;
+  }
+  .musician-left .back-home {
+    top: 15%;
+  }
+  #layer-4 {
+    right: 12%;
+  }
+  #main.developer .logo {
+    display: none;
+  }
+  .jobs {
+    transform: scale(0.7);
+    top: -60px;
+    left: -25px;
+  }
+  .aulas {
+    right: 73%;
+  }
+  .rocket {
+    bottom: 5%;
+    right: 21%;
+    transform: scale(0.7) !important;
+  }
+}
+@media (max-width: 500px) {
+  .diego-wrapper {
+    margin-top: 0;
+  }
+  .profile-button {
+    transform: scale(0.65);
+    left: 48px;
+    bottom: 200px;
+  }
+  #layer-5 {
+    top: 19% !important;
+    left: 2% !important;
+  }
+  .nav-developer,
+  .nav-musician {
+    top: 60px !important;
+  }
+  .social-media {
+    right: 5%;
+    margin-top: 51%;
+  }
+  #main.developer .social-media {
+    right: 13%;
+    margin-top: 71%;
+  }
+  #layer-4 {
+    right: -33% !important;
+    bottom: -3%;
+  }
+  #layer-3 {
+    top: 100px !important;
+    left: 3% !important;
+  }
+  #layer-3 img {
+    max-width: 100vw;
+  }
+  #layer-1 {
+    margin-left: auto;
+  }
+  #layer-1 svg {
+    height: 100% !important;
+    max-width: 100vw !important;
+    width: 100%;
+  }
+  #layer-2 {
+    width: 100%;
+    margin-left: auto;
+  }
+  li#layer-2 svg {
+    height: 100vh;
+    max-width: 100vw;
+  }
+  .developer-right {
+    margin-right: -10%;
+  }
+  .bg-video {
+    right: 20%;
+  }
+  .aulas {
+    right: 43%;
+  }
+  #main.developer .dialog,
+  #main.developer .logo,
+  #main:not(.musician) .svgMusician {
+    display: none;
+  }
+  .developer-right .back-home {
+    left: 19%;
+    top: 0%;
+  }
+  .developer-right .jobs {
+    transform: scale(0.8) translate(-37px, 20px);
+  }
+  svg.svgDeveloper {
+    transform: none !important;
+  }
+  #main.developer #layer-2 {
+    animation: none !important;
+  }
+  #main.developer svg.svgDeveloper {
+    margin-top: 30px;
+  }
+  .iframe {
+    bottom: 3.5vh;
+    width: 355px;
+    left: 20px;
+    height: 260px;
+  }
+  .iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .musician-bottom {
+    bottom: -24%;
+    left: 4%;
+  }
+  .musician-left .back-home {
+    left: 10%;
+    top: 28%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .nav-developer {
+    right: 30%;
+  }
+  .social-media {
+    right: 35%;
+    margin-top: 6%;
+  }
+}
+@media (min-width: 1000px) {
+  #layer-3 img {
+    top: 25vh;
+  }
+}
