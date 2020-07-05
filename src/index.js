@@ -7,8 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 
 const browser = detect();
 
-document.body.classList.add(browser.name);
-document.body.classList.add(window.screen.width);
+document.body.classList.add(browser.name, window.screen.width);
 
 ReactDOM.render(
   <React.StrictMode>
