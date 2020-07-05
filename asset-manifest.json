@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/diegotauchert-reactjs/static/css/main.524cdfc2.chunk.css",
+    "main.js": "/diegotauchert-reactjs/static/js/main.b6738628.chunk.js",
+    "main.js.map": "/diegotauchert-reactjs/static/js/main.b6738628.chunk.js.map",
+    "runtime-main.js": "/diegotauchert-reactjs/static/js/runtime-main.2433f222.js",
+    "runtime-main.js.map": "/diegotauchert-reactjs/static/js/runtime-main.2433f222.js.map",
+    "static/js/2.10855cdd.chunk.js": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js",
+    "static/js/2.10855cdd.chunk.js.map": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js.map",
+    "index.html": "/diegotauchert-reactjs/index.html",
+    "precache-manifest.eb9a7d67ec164b95f69b9f262a5b9c71.js": "/diegotauchert-reactjs/precache-manifest.eb9a7d67ec164b95f69b9f262a5b9c71.js",
+    "service-worker.js": "/diegotauchert-reactjs/service-worker.js",
+    "static/css/main.524cdfc2.chunk.css.map": "/diegotauchert-reactjs/static/css/main.524cdfc2.chunk.css.map",
+    "static/js/2.10855cdd.chunk.js.LICENSE.txt": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js.LICENSE.txt",
+    "static/media/Parallax.css": "/diegotauchert-reactjs/static/media/sprites.abba4eaa.png",
+    "static/media/bola-2.svg": "/diegotauchert-reactjs/static/media/bola-2.cc83c363.svg",
+    "static/media/bola-3.svg": "/diegotauchert-reactjs/static/media/bola-3.a57b5434.svg",
+    "static/media/btn-sound.svg": "/diegotauchert-reactjs/static/media/btn-sound.a565db1a.svg",
+    "static/media/css3.png": "/diegotauchert-reactjs/static/media/css3.593780cd.png",
+    "static/media/diego.png": "/diegotauchert-reactjs/static/media/diego.0748ef23.png",
+    "static/media/jaba-1.jpg": "/diegotauchert-reactjs/static/media/jaba-1.149c441b.jpg",
+    "static/media/jaba-2.jpg": "/diegotauchert-reactjs/static/media/jaba-2.3c118bcd.jpg",
+    "static/media/jaba-3.jpg": "/diegotauchert-reactjs/static/media/jaba-3.d11bc656.jpg",
+    "static/media/laravel.png": "/diegotauchert-reactjs/static/media/laravel.ce0b2074.png",
+    "static/media/linkedin.png": "/diegotauchert-reactjs/static/media/linkedin.070dea14.png",
+    "static/media/mongo.png": "/diegotauchert-reactjs/static/media/mongo.375b4369.png",
+    "static/media/mysql.png": "/diegotauchert-reactjs/static/media/mysql.d4dd0ae0.png",
+    "static/media/node.png": "/diegotauchert-reactjs/static/media/node.270f55ff.png",
+    "static/media/nuvem-logo.svg": "/diegotauchert-reactjs/static/media/nuvem-logo.f3616b91.svg",
+    "static/media/react.png": "/diegotauchert-reactjs/static/media/react.51417afc.png",
+    "static/media/tv.png": "/diegotauchert-reactjs/static/media/tv.e7f0816d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2433f222.js",
+    "static/js/2.10855cdd.chunk.js",
+    "static/css/main.524cdfc2.chunk.css",
+    "static/js/main.b6738628.chunk.js"
+  ]
+}
