@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/diegotauchert-reactjs/static/css/main.524cdfc2.chunk.css",
-    "main.js": "/diegotauchert-reactjs/static/js/main.b6738628.chunk.js",
-    "main.js.map": "/diegotauchert-reactjs/static/js/main.b6738628.chunk.js.map",
+    "main.js": "/diegotauchert-reactjs/static/js/main.a2696dd0.chunk.js",
+    "main.js.map": "/diegotauchert-reactjs/static/js/main.a2696dd0.chunk.js.map",
     "runtime-main.js": "/diegotauchert-reactjs/static/js/runtime-main.2433f222.js",
     "runtime-main.js.map": "/diegotauchert-reactjs/static/js/runtime-main.2433f222.js.map",
     "static/js/2.10855cdd.chunk.js": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js",
     "static/js/2.10855cdd.chunk.js.map": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js.map",
     "index.html": "/diegotauchert-reactjs/index.html",
-    "precache-manifest.eb9a7d67ec164b95f69b9f262a5b9c71.js": "/diegotauchert-reactjs/precache-manifest.eb9a7d67ec164b95f69b9f262a5b9c71.js",
+    "precache-manifest.090ec2f6fcdf71898653aa39497b15ad.js": "/diegotauchert-reactjs/precache-manifest.090ec2f6fcdf71898653aa39497b15ad.js",
     "service-worker.js": "/diegotauchert-reactjs/service-worker.js",
     "static/css/main.524cdfc2.chunk.css.map": "/diegotauchert-reactjs/static/css/main.524cdfc2.chunk.css.map",
     "static/js/2.10855cdd.chunk.js.LICENSE.txt": "/diegotauchert-reactjs/static/js/2.10855cdd.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.2433f222.js",
     "static/js/2.10855cdd.chunk.js",
     "static/css/main.524cdfc2.chunk.css",
-    "static/js/main.b6738628.chunk.js"
+    "static/js/main.a2696dd0.chunk.js"
   ]
 }
