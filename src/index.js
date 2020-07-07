@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <HelmetProvider>
       <Helmet defaultTitle="Diego Tauchert">
-        <link rel="canonical" href="https://diegotauchert.co" />
+        <link rel="canonical" href="https://diegotauchert.com" />
         <meta
           name="description"
           content="This is a personal portfolio of Diego Tauchert, Full Stack Developer"
