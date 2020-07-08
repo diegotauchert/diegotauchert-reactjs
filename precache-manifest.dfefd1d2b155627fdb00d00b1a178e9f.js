@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8c37fd0b6b45b605509f8e92b06542e",
+    "revision": "c45200e0c86aabb45bd177c87e2a3686",
     "url": "https://diegotauchert.github.io/diegotauchert-reactjs/index.html"
   },
   {
-    "revision": "94abed165017dad11c26",
-    "url": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.1b8ed317.chunk.css"
+    "revision": "0ee08769bf335be1a827",
+    "url": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.6cd2c91c.chunk.css"
   },
   {
     "revision": "b0f1422f249e910b9b08",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94abed165017dad11c26",
+    "revision": "0ee08769bf335be1a827",
     "url": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.e8030e68.chunk.js"
   },
   {

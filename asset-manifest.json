@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.1b8ed317.chunk.css",
+    "main.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.6cd2c91c.chunk.css",
     "main.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.e8030e68.chunk.js",
     "main.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.e8030e68.chunk.js.map",
     "runtime-main.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/runtime-main.498e2969.js",
@@ -8,9 +8,9 @@
     "static/js/2.972a6399.chunk.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js",
     "static/js/2.972a6399.chunk.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js.map",
     "index.html": "https://diegotauchert.github.io/diegotauchert-reactjs/index.html",
-    "precache-manifest.93440647e2f0ed8b3bfe400eac0d6c8b.js": "https://diegotauchert.github.io/diegotauchert-reactjs/precache-manifest.93440647e2f0ed8b3bfe400eac0d6c8b.js",
+    "precache-manifest.dfefd1d2b155627fdb00d00b1a178e9f.js": "https://diegotauchert.github.io/diegotauchert-reactjs/precache-manifest.dfefd1d2b155627fdb00d00b1a178e9f.js",
     "service-worker.js": "https://diegotauchert.github.io/diegotauchert-reactjs/service-worker.js",
-    "static/css/main.1b8ed317.chunk.css.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.1b8ed317.chunk.css.map",
+    "static/css/main.6cd2c91c.chunk.css.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.6cd2c91c.chunk.css.map",
     "static/js/2.972a6399.chunk.js.LICENSE.txt": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js.LICENSE.txt",
     "static/media/Parallax.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/media/sprites.abba4eaa.png",
     "static/media/bola-2.svg": "https://diegotauchert.github.io/diegotauchert-reactjs/static/media/bola-2.cc83c363.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.498e2969.js",
     "static/js/2.972a6399.chunk.js",
-    "static/css/main.1b8ed317.chunk.css",
+    "static/css/main.6cd2c91c.chunk.css",
     "static/js/main.e8030e68.chunk.js"
   ]
 }
