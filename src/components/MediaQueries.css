@@ -94,6 +94,9 @@
   body {
     overflow: visible !important;
   }
+  .logo-wrapper {
+    transform: scale(0.8);
+  }
   .diego-wrapper {
     margin-top: 0;
   }

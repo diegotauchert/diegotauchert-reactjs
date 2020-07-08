@@ -19,12 +19,18 @@ const Logo = () => {
         <img src={sound} alt="Listen Filelife" />
       </a>
       <div className="logo">
-        <img src={diego} className="black-logo rotate-6" alt="Diego Tauchert" />
-        <img src={img} alt="Diego Tauchert" className="cloud" />
-        <div className="circles">
-          <img src={bola1} alt="Diego Tauchert" />
-          <img src={bola2} alt="Diego Tauchert" />
-          <img src={bola3} alt="Diego Tauchert" />
+        <div className="logo-wrapper">
+          <img
+            src={diego}
+            className="black-logo rotate-6"
+            alt="Diego Tauchert"
+          />
+          <img src={img} alt="Diego Tauchert" className="cloud" />
+          <div className="circles">
+            <img src={bola1} alt="Diego Tauchert" />
+            <img src={bola2} alt="Diego Tauchert" />
+            <img src={bola3} alt="Diego Tauchert" />
+          </div>
         </div>
       </div>
     </Fragment>
