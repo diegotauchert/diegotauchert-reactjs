@@ -71,6 +71,9 @@ export default class ParallaxLayers extends Component {
 
     this.parallax.doReadyCallback();
 
+    $(":root").css("--windowHeight", $(window).height() + "px");
+    $(":root").css("--windowWidth", $(window).width() + "px");
+
     $(".nav-musician").click(function () {
       $("#main").removeClass("developer home");
       $("#main").toggleClass("musician");

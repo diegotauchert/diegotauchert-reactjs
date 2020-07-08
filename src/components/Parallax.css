@@ -632,7 +632,8 @@ a.btn-youtube {
   opacity: 1;
   animation: rocket 5s ease-in-out infinite 2s alternate backwards;
 }
-body.safari .rocket {
+body.safari .rocket,
+body.safari .rocket::before {
   animation: none !important;
 }
 

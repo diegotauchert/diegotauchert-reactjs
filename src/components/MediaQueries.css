@@ -24,6 +24,11 @@
     display: none;
   }
 }
+@media (min-width: 500px) and (max-width: 1000px) and (orientation: landscape) {
+  .diego-wrapper {
+    margin-top: 26vh;
+  }
+}
 @media (min-width: 500px) and (max-width: 1000px) {
   .profile-button {
     display: none;
@@ -42,15 +47,12 @@
       margin-left: -47%;
     }
   }
-  .diego-wrapper {
-    margin-top: 26vh;
-  }
   .social-media {
     margin-top: 4%;
   }
   .nav-developer {
-    right: 23%;
-    top: -20px;
+    right: 6%;
+    top: 10px;
   }
   .iframe {
     bottom: 4vh;
@@ -89,6 +91,9 @@
   }
 }
 @media (max-width: 500px) {
+  body {
+    overflow: visible !important;
+  }
   .diego-wrapper {
     margin-top: 0;
   }
@@ -207,7 +212,18 @@
   .svgDeveloper {
     margin-top: 60px;
   }
+  #main.developer .social-media,
+  .rocket {
+    display: none !important;
+  }
+  .iframe {
+    bottom: 4.33vh;
+    width: 331px;
+    left: 22px;
+    height: 245px;
+  }
 }
+
 @media (max-width: 800px) and (min-height: 1000px) {
   #layer-3 {
     left: 15% !important;
@@ -259,16 +275,142 @@
 }
 
 @media (min-width: 1400px) {
-  .nav-developer {
-    right: 30%;
-  }
   .social-media {
     right: 35%;
     margin-top: 6%;
   }
 }
+@media (min-width: 1000px) {
+  .nav-developer {
+    right: 30%;
+  }
+}
 @media (min-width: 1025px) {
   #layer-3 img {
     top: 25vh;
+  }
+}
+@media (min-width: 1900px) {
+  #layer-3 img {
+    max-width: 100vw !important;
+    width: 50vw;
+    top: auto !important;
+  }
+  .tv {
+    top: 29vh;
+    left: 11.2vw;
+    height: 210px;
+  }
+  .iframe {
+    bottom: 4.7vw;
+    width: 21.6vmax;
+    left: 23px;
+    height: 15.8vmax;
+  }
+  .iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .video svg {
+    margin-top: 3vh !important;
+  }
+  .profile-button {
+    bottom: 29vh;
+    left: 8vw;
+  }
+  #layer-4 {
+    right: 29%;
+    bottom: 28%;
+  }
+  .stack {
+    bottom: 24%;
+  }
+}
+@media (min-width: 1900px) and (min-height: 1200px) {
+  .tv {
+    top: 31.3vh;
+  }
+  .iframe {
+    bottom: 7.5vw;
+    width: 21.6vmax;
+    left: 23px;
+  }
+}
+@media (min-width: 2560px) and (height: 1080px) {
+  #layer-3 img {
+    width: 40vw;
+  }
+  #layer-4 {
+    right: 38%;
+    bottom: 34%;
+  }
+  .tv {
+    top: 25.3vh;
+    height: 22vh;
+    left: 14.8vw;
+  }
+  .iframe {
+    bottom: 3.5vw;
+    width: 16vmax;
+    height: 12vmax;
+    left: 24px;
+  }
+  .stack {
+    bottom: 17%;
+  }
+}
+@media (min-width: 2560px) and (height: 1200px) {
+  #layer-3 img {
+    width: 45vw;
+  }
+  .tv {
+    top: 25.3vh;
+    height: 22vh;
+    left: 12.5vw;
+  }
+  .iframe {
+    bottom: 5.5vw;
+    width: 16vmax;
+    height: 12vmax;
+    left: 24px;
+  }
+  .stack {
+    bottom: 17%;
+  }
+}
+@media (min-width: 2560px) and (min-height: 1440px) {
+  .tv {
+    top: 28.3vh;
+    height: 20vh;
+  }
+  .iframe {
+    width: 16vmax;
+    height: 11.8vmax;
+    bottom: 9.8vw;
+    left: 24px;
+  }
+  .musician-left {
+    margin-left: -30%;
+  }
+}
+@media (min-width: 3840px) and (min-height: 2160px) {
+  .stack img {
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 300px;
+  }
+  #layer-4 {
+    right: 40%;
+    bottom: 35%;
+  }
+  .developer-right .jobs {
+    transform: scale(1.3);
+    top: 60px;
+  }
+  .iframe {
+    width: 10.7vmax;
+    height: 7.8vmax;
+    bottom: 14.8vw;
+    left: 24px;
   }
 }
