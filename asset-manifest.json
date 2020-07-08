@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.e012fc93.chunk.css",
-    "main.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.a9ca0fdf.chunk.js",
-    "main.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.a9ca0fdf.chunk.js.map",
+    "main.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.8cb65159.chunk.css",
+    "main.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.be45d2eb.chunk.js",
+    "main.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/main.be45d2eb.chunk.js.map",
     "runtime-main.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/runtime-main.498e2969.js",
     "runtime-main.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/runtime-main.498e2969.js.map",
     "static/js/2.972a6399.chunk.js": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js",
     "static/js/2.972a6399.chunk.js.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js.map",
     "index.html": "https://diegotauchert.github.io/diegotauchert-reactjs/index.html",
-    "precache-manifest.770fe70051fb70d3062b789fd776e84a.js": "https://diegotauchert.github.io/diegotauchert-reactjs/precache-manifest.770fe70051fb70d3062b789fd776e84a.js",
+    "precache-manifest.bb468b6dec90475eada0358f6e24206b.js": "https://diegotauchert.github.io/diegotauchert-reactjs/precache-manifest.bb468b6dec90475eada0358f6e24206b.js",
     "service-worker.js": "https://diegotauchert.github.io/diegotauchert-reactjs/service-worker.js",
-    "static/css/main.e012fc93.chunk.css.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.e012fc93.chunk.css.map",
+    "static/css/main.8cb65159.chunk.css.map": "https://diegotauchert.github.io/diegotauchert-reactjs/static/css/main.8cb65159.chunk.css.map",
     "static/js/2.972a6399.chunk.js.LICENSE.txt": "https://diegotauchert.github.io/diegotauchert-reactjs/static/js/2.972a6399.chunk.js.LICENSE.txt",
     "static/media/Parallax.css": "https://diegotauchert.github.io/diegotauchert-reactjs/static/media/sprites.abba4eaa.png",
     "static/media/bola-2.svg": "https://diegotauchert.github.io/diegotauchert-reactjs/static/media/bola-2.cc83c363.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.498e2969.js",
     "static/js/2.972a6399.chunk.js",
-    "static/css/main.e012fc93.chunk.css",
-    "static/js/main.a9ca0fdf.chunk.js"
+    "static/css/main.8cb65159.chunk.css",
+    "static/js/main.be45d2eb.chunk.js"
   ]
 }
